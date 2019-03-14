@@ -1,0 +1,45 @@
+{
+  "name": "@atlaskit/theme",
+  "version": "8.0.0",
+  "description": "The Atlaskit theme framework, by Findable",
+  "license": "Apache-2.0",
+  "module": "index.js",
+  "atlaskit:src": "src/index.js",
+  "sideEffects": false,
+  "author": "Atlassian Pty Ltd",
+  "maintainers": [
+    "Sean C",
+    "Ajay M",
+    "Daniel D",
+    "Kang C"
+  ],
+  "repository": "https://github.com/fnamazing/ak-theme",
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "exenv": "^1.2.2",
+    "prop-types": "^15.5.10"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "@atlaskit/build-utils": "^2.0.0",
+    "@atlaskit/ssr": "^0.0.1",
+    "@atlaskit/button": "^10.1.3",
+    "@atlaskit/docs": "^7.0.0",
+    "@atlaskit/lozenge": "^7.0.0",
+    "@atlaskit/section-message": "^2.0.0",
+    "@atlaskit/visual-regression": "^0.0.1",
+    "color": "^3.0.0",
+    "enzyme": "^3.7.0",
+    "react-dom": "^16.4.2"
+  },
+  "keywords": [
+    "atlaskit",
+    "css",
+    "theme",
+    "react",
+    "ui"
+  ]
+}
